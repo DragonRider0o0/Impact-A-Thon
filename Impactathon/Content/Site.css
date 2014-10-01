@@ -1,12 +1,12 @@
-﻿body {
+﻿
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +21,195 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+#Nav
+{
+    background-color: #202f44;
+    height: 75px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav>li>a
+{
+    color: #ffffff;
+    padding-top: 27px;
+    padding-bottom: 28px;
+}
+
+span.glyphicon.glyphicon-cog
+{
+    padding-top: 25px;
+    padding-bottom: 28px;
+}
+
+ul.nav.navbar-nav {
+width: 85%;
+}
+
+.navbar-nav>li
+{
+    padding-left: 10%;
+}
+
+
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 81px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f7f7f7;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  /*margin-bottom: 30px;*/
+  text-align: center;
+}
+.placeholders h4 {
+  /*margin-bottom: 0;*/
+}
+.placeholder {
+  /*margin-bottom: 20px;*/
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+.nav-sidebar>li>a
+{
+    height:75px;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand
+{
+    padding: 0px;
+    padding-top: 8px;
+}
+
+.nav>li>a:hover
+{
+    color: #f1c40f;
+    background-color: #202f44;
+}
+
+#profileHead{
+    background-color: #202f44;
+    width: 100%;
+    height: 50px;
+        text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 7px;
+
+}
+#profile
+{
+    margin-top: 10px;
+     
+}
+
+#profilePhoto
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+#profileText
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }

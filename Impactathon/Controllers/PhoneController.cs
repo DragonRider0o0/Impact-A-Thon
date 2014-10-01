@@ -29,7 +29,10 @@ namespace Impactathon.Controllers
         {
             List<string> phoneNumbers = new List<string>();
             phoneNumbers.Add("+18017878026");
-            string message = "Impactathon";
+            //Thread.wait(1000);
+            //phoneNumbers.Add("+14143243815");
+            //phoneNumbers.Add("+14123566767");
+            string message = "Porchlight Notification: You've been matched with John Smith for October 2 - October 8 2014. Sign in to view details or contact the host at 412-356-6767.";
 
             foreach (string phoneNumber in phoneNumbers)
             {
